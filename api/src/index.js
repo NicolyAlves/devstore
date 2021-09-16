@@ -13,7 +13,7 @@ app.get('/produto', async (req, resp) => {
                         });
 
     } catch (e) {
-        resp.send({erro: e.toString()});
+        resp.send({erro: e.toString()})
     }
 })
 
