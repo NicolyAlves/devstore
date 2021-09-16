@@ -1,0 +1,22 @@
+{
+  "name": "devstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=3030 && nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicocchina/devstore.git"
+  },
+  "type":"module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicocchina/devstore/issues"
+  },
+  "homepage": "https://github.com/nicocchina/devstore#readme"
+}
