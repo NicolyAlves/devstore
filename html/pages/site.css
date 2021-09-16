@@ -4,3 +4,100 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.conteiner {
+    background-color: #F5F5F5;
+
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.tela-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-lateral {
+    background-color: #2B3031;
+
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+
+    font-weight: 900;
+
+    margin: 2em;
+
+    color: white;
+}
+
+.azul{
+    color: #10EAEA;
+}
+
+
+.gerenciamento {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+
+  color: white;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+
+/* cabecalho */
+.cabecalho {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+
+    width: 87vw;
+
+    padding: 1em;
+}
+
+.usuario {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1em;
+}
+
+/*  botoes cabecalho */
+
+.botoes-cab button {
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+    padding: 0.5em 0.8em;
+    background-color: #119FDC;
+}
+.botoes-cab {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+.botoes-cab img {
+    margin-top: 0.5em;
+}
+
+/* fim botoes cabecalho */
+/* fim cabecalho */
+
+
+hr {
+    height: 5vh;
+    border: none;
+    background-color: #262626;
+    margin-bottom: 1.5em;
+}

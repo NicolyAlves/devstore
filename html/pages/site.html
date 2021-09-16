@@ -12,44 +12,75 @@
     <body>
         <div class="conteiner">
             <div class="barra-lateral">
-                <div class="logo"><img src="../public/assets/images/logo.svg"></div>
-                <div class="azul">Dev</div>Store
+                <div class="logo"><img src="../public/assets/images/logo.svg"><div class="azul">Dev</div>Store</div>
                 <hr>
-                <div class="produtos"><img src="../public/assets/images/Rectangle 14.svg">
-                    Produtos
+                <div class="gerenciamento">
+                    Gerenciamento
                 </div>
-                <div class="cabecalho">
-                    <div class="usuario"><img src="../public/assets/images/usuario.svg">
-                        Olá, Bruno de Oliveira</div>
-                    <div class="botoes">
-                        <button><img src="../public/assets/images/refresh.svg"></button>
+                <div class="produtos">
+                    <img src="../public/assets/images/Rectangle 14.svg">
+                    Produtos 
+                </div>
+            </div> 
+            <div class="tela-principal">   
+                    <div class="cabecalho">
+                        <div class="usuario"><img src="../public/assets/images/usuario.svg">&nbsp;&nbsp;Olá, Bruno de Oliveira</div>
+                        <div class="botoes-cab">
+                            <button><img src="../public/assets/images/refresh.svg"></button>
+                        </div>
+                        <div class="botoes-cab">
+                            <button>&nbsp;<img src="../public/assets/images/log-out.svg"></button>
+                        </div>
                     </div>
-                    <div class="botoes">
-                        <button><img src="../public/assets/images/log-out.svg"></button>
+                    <div class="novo-produto">
+                        <div class="bn-titulo"><img src="../public/assets/images/Rectangle 14.svg">Novo Produto</div>
+                        <form>
+                            <div class="direita">
+                                <label>Nome:</label><input type="text"/>
+                                <label>Categoria:</label><input type="text"/>
+                                <label>Avaliação:</label><input type="number"/>
+                            </div>
+                            <div class="esquerdo">
+                                <label>Preço DE:</label><input type="number"/>
+                                <label>Preço POR:</label><input type="number"/>
+                                <label>Estoque:</label><input type="number"/>
+                            </div>
+                            <div class="baixo">
+                                <label>Link Imagem:</label><input type="url"/>
+                                <label>Descrição:</label>
+                                <textarea></textarea>
+                                <button>Cadastrar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="produto-cadastrado">
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>ID</th>
+                                    <th>Produto</th>
+                                    <th>Categoria</th>
+                                    <th>Preço</th>
+                                    <th>Estoque</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>imagem</td>
+                                    <td>1</td>
+                                    <td>Café</td>
+                                    <td>Alimentos</td>
+                                    <td>7.15</td>
+                                    <td>150</td>
+
+                                    <td><button><img src="../public/assets/images/editar.svg" /></button></td>
+                                    <td><button><img src="../public/assets/images/lixo.svg"></button></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <div class="novo-produto">
-                    <div class="bn-titulo"><img src="../public/assets/images/Rectangle 14.svg">Novo Produto</div>
-                    <form>
-                        <div class="direita">
-                            <label>Nome:</label><input type="text"/>
-                            <label>Categoria:</label><input type="text"/>
-                            <label>Avaliação:</label><input type="number"/>
-                        </div>
-                        <div class="esquerdo">
-                            <label>Preço DE:</label><input type="number"/>
-                            <label>Preço POR:</label><input type="number"/>
-                            <label>Estoque:</label><input type="number"/>
-                        </div>
-                        <div class="baixo">
-                            <label>Link Imagem:</label><input type="url"/>
-                            <label>Descrição:</label>
-                            <textarea></textarea>
-                            <button>Cadastrar</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="produto-cadastrado"></div>
             </div>
         </body>
     </body>
