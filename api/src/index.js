@@ -9,7 +9,7 @@ app.use(express.json());
 app.get('/produto', async (req, resp) => {
     try {
         let produtos = await db.tb_produto.findAll({
-                             order: [[ 'id_matricula', 'desc']]
+                             order: [[ 'id_produto', 'desc']]
                         });
 
     } catch (e) {

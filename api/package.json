@@ -1,7 +1,6 @@
 {
   "name": "devstore",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,12 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/nicocchina/devstore.git"
   },
-  "type":"module",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nicocchina/devstore/issues"
   },
-  "homepage": "https://github.com/nicocchina/devstore#readme"
+  "homepage": "https://github.com/nicocchina/devstore#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5",
+    "sequelize-auto": "^0.8.4"
+  }
 }
