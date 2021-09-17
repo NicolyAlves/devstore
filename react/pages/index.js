@@ -1,7 +1,6 @@
 
         <head>
             <title>DevStore</title>
-
             <link rel="shortcut icon" type="imagex/png" href="../public/assets/images/Vector_2_.ico"alt=""/>
         </head>
 

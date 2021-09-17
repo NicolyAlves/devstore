@@ -8,18 +8,18 @@ export default class Api {
         return r.data;
     }
 
-    async inserir () {
-
+    async inserir (produto, categoria, preco_de, preco_por, avaliacao, descproduto, estoque, imgproduto, ativo, inclusao) {
+        let r = await api.post(`/matricula`, { produto, categoria, preco_de, preco_por, avaliacao, descproduto, estoque, imgproduto, ativo, inclusao });
         return r.data;
     }
 
-    async alterar (){
-
+    async alterar (id, produto, categoria, preco_de, preco_por, avaliacao, descproduto, estoque, imgproduto, ativo, inclusao){
+        let r = await api.put(`/matricula/` + id, produto, categoria, preco_de, preco_por, avaliacao, descproduto, estoque, imgproduto, ativo, inclusao);
         return r.data;
     }
 
-    async remover(){
-
+    async remover(id){
+        let r = await api.delete(`/matricula` + id);
         return r.data;
     }
 
