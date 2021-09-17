@@ -190,9 +190,23 @@
         margin-bottom: 1em;
     }
 
+    .baixo div {
+        display: flex;
+        flex-direction: row;
+    }
+
     input {
         width: 90%;
         margin-left: 0.5em;
+    }
+
+    input[type="url"]{
+
+    }
+
+    textarea {
+        width: 60;
+        resize: none;
     }
 
     /* fim novo produto */
