@@ -1,15 +1,9 @@
-
-
-        <head>
-            <title>DevStore</title>
-            <link rel="shortcut icon" type="imagex/png" href="../public/assets/images/Vector_2_.ico"alt=""/>
-        </head>
-
-        import "../pages/styled.css";
+        import { useState, useEffect } from 'react';
+        import { Container } from './styled'
+        import "./styled.js";
+        
         import Api from '../service/api.js';
         const api = new Api ();
-
-        import { useState, useEffect } from 'react';
 
         export default function App() {
             
@@ -92,8 +86,8 @@
         }, {})
 
 return (
-        <body>
-            <div className="conteiner">
+            <Container>
+             <div className="conteiner">
                 <div className="barra-lateral">
                     <div className="logo"><img src="../public/assets/images/logo.svg" alt=""/><div className="azul">Dev</div>Store</div>
                     <div style="height: 5vh"></div>
@@ -165,12 +159,13 @@ return (
                                             <td><button style="border-radius: 50%;border: none;box-shadow: none;padding: 0.5em 0.8em;background-color: #565656;" onClick={() => remover(item.id_produto) }><img src="../public/assets/images/lixo.svg"alt=""/></button></td>
                                         </tr>
                                       )}  
-                                      
+
                                     </tbody>
                                 </table>
                             </div>
                     </div>
                 </div>
-        </body>
+            </Container>
+
     )
 }
