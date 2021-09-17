@@ -145,7 +145,7 @@
         flex-direction: row;
         align-items: center;
 
-        margin-bottom: 2.5em;
+        margin-bottom: 2em;
     }
 
     .bn-titulo p {
@@ -158,9 +158,6 @@
 
     
     form {
-        background-color: bisque;
-        padding: 1em;
-
         width: 90%;
     }
 
@@ -174,6 +171,8 @@
     .direita, .esquerdo {
         display: flex;
         flex-direction: column;
+
+        color: #615858;
     }
 
     .direita {
@@ -201,8 +200,11 @@
         width: 78.5%;
         font-weight: 700;
         margin-bottom: 1em;
+        color:#615858;
     }
-    .baixo 
+    .baixo input{
+        margin-left:-1.3em;
+    }
 
     input {
         width: 90%;
