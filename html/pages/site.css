@@ -27,7 +27,7 @@
 .barra-lateral {
     background-color: #2B3031;
 
-    width: 90vw;
+    width: 18vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -95,9 +95,9 @@
     display: flex;
     flex-direction: row;
 
-    width: 87vw;
+    width: 85vw;
 
-    padding: 1em;
+    height: 10vh;
 }
 
 .usuario {
@@ -106,7 +106,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 1em;
+    
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: 1.5em;
 }
 
 /*  botoes cabecalho */
@@ -132,7 +135,7 @@
 
     /* novo produto */
     .novo-produto{
-        margin: 3em;
+        margin: 1.5em;
         padding: 1.5em;
         background-color: white;
     }
@@ -176,12 +179,13 @@
     .direita {
         margin-right: 4em;
         width: 30vw;
+        margin-bottom: -1em;
     }
 
     .direita div {
         display: flex;
         flex-direction: row;
-        margin-bottom: 1em;
+        margin-bottom: 2.4em;
     }
 
     .esquerdo div {
@@ -193,19 +197,23 @@
     .baixo div {
         display: flex;
         flex-direction: row;
+
+        width: 78.5%;
+        font-weight: 700;
+        margin-bottom: 1em;
     }
+    .baixo 
 
     input {
         width: 90%;
-        margin-left: 0.5em;
+        height: 2em;
     }
 
-    input[type="url"]{
+    
 
-    }
-
+   
     textarea {
-        width: 60;
+        width: 75%;
         resize: none;
     }
 
